@@ -25,6 +25,7 @@ function Header(day, titleName, temp) {
     head.appendChild(title)
 
     let temperature = document.createElement('span');
+    temperature.classList.add('temp');
     temperature.textContent = temp;
     head.appendChild(temperature);
 
